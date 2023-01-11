@@ -392,6 +392,7 @@ input {
     pointer-events: none; /* avoid mouse click events inside the dropdown */
     background: #FFFFFF;
     margin-top: 1px;
+    z-index: 100;
 }
 .is-active .checkbox-dropdown-list {
     opacity: 1; /* display the dropdown */
